@@ -7,21 +7,48 @@
 
 /* MARK: - Tags*/
 
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h2 {margin-bottom: 0;}
+
+h3 {
+    color: #C3B1E1;
+    background-color:#FFFAA0;
+}
+
 header {
     text-align: center;
     font-size: 1.5rem;
+    border-bottom: 2px solid #FFFAA0;
+    margin: 2rem;
 }
 
 section {
     border: 2px solid #FFFAA0;
+    margin: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 article {
     padding: 0rem 1.5rem 1.5rem;
     font-size: 1.5rem;
-    margin: 1.5rem;
+    margin: 1.25rem;
     border: 2px solid #FFFAA0;
-    width: 500px;
+    width: 800px;
+}
+
+footer {
+    margin: 0;
+    margin-top: 10;
+    color: #C3B1E1;
+    background-color:#FFFAA0;
+    text-align: right;
 }
 
 /* MARK: - Classes*/
@@ -31,8 +58,12 @@ article {
     margin: 0.5rem;
 }
 
-.recipeTitle {
+.recipeTitle {}
 
+.recipeDescription {
+    list-style-type: none;
 }
 
 /* MARK: - IDs*/
+
+#recipeMainTitle {margin-left: 2rem;}
